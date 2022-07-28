@@ -2,12 +2,31 @@
 layout: default
 permalink: /
 ---
-<nav>
+<nav class="nav-main">
   <h1>{{site.header}}</h1>
   <ul>
-    <li><a href="/">Designs</a></li>
-    <li><a href="/">Projects</a></li>
-    <li><a href="/">About</a></li>
-    <li><a href="/">Blog</a></li>
+    <li><a href="#designs">Designs</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="{{- site.blog -}}">Blog</a></li>
   </ul>
 </nav>
+
+# About
+<nav class="nav-about">
+  <ul>
+    <li><a href="{{- site.github -}}">GitHub</a></li>
+    <li><a href="{{- site.linkedin -}}">LinkedIn</a></li>
+    <li><a href="{{- site.mastodon -}}">Mastodon</a></li>
+  </ul>
+  <ul>
+    <li><a href="mailto:{{- site.mail -}}">Mail</a></li>
+    <li><a href="{{- site.blog -}}">Blog</a></li>
+  </ul>
+</nav>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nisi sem, non posuere neque convallis sed. Curabitur tellus erat, faucibus non tellus nec, feugiat feugiat erat. Phasellus aliquam, massa ut tincidunt condimentum, neque diam sodales magna, eu dictum mi libero at tortor. Nunc malesuada felis est, vel ultricies purus ultrices rutrum. Aenean mollis imperdiet dui, sed accumsan lorem volutpat nec.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nisi sem, non posuere neque convallis sed. Curabitur tellus erat, faucibus non tellus nec, feugiat feugiat erat. Phasellus aliquam, massa ut tincidunt condimentum, neque diam sodales magna, eu dictum mi libero at tortor. Nunc malesuada felis est, vel ultricies purus ultrices rutrum. Aenean mollis imperdiet dui, sed accumsan lorem volutpat nec.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nisi sem, non posuere neque convallis sed. Curabitur tellus erat, faucibus non tellus nec, feugiat feugiat erat. Phasellus aliquam, massa ut tincidunt condimentum, neque diam sodales magna, eu dictum mi libero at tortor. Nunc malesuada felis est, vel ultricies purus ultrices rutrum. Aenean mollis imperdiet dui, sed accumsan lorem volutpat nec.

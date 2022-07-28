@@ -3,7 +3,7 @@
 #----------------------------------------
 
 # Site title, appears in the browser tab.
-title: "vllur.github.io"
+title: "Patryk Dejewski"
 
 # Site description in search engine.
 description: ""
@@ -26,6 +26,13 @@ baseurl: /
 
 # Site header text
 header: "Patryk Dejewski"
+
+# Links
+blog: /
+github: /
+linkedin: /
+mastodon: /
+mail: /
 
 # Posts, drafts and other collections in '_content' directory
 collections_dir: content
