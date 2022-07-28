@@ -24,6 +24,9 @@ baseurl: /
 # CONTENT VARIABLES
 #----------------------------------------
 
+# Site header text
+header: "Patryk Dejewski"
+
 # Posts, drafts and other collections in '_content' directory
 collections_dir: content
 

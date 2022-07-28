@@ -1,3 +1,37 @@
-body{
-  background: #39363F;
+html, body{
+  height: 100%;
+  font: $text-paragraph;
+  background: $background;
+  color: $paragraph;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font: $text-headline;
+  color: $headline;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+
+  &, &:visited{
+    color: $color-link;
+  }
+
+  &:hover{
+    color: $color-link-hover;
+    text-decoration: underline;
+  }
+
+  &:active{
+    color: $color-link-active;
+  }
 }

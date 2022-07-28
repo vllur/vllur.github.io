@@ -1,0 +1,39 @@
+nav{
+  display: inline-block;
+  margin: auto;
+  padding-top: calc(17vh - 68px);
+
+  & h1{
+    text-align: center;
+    margin: 0;
+  }
+
+  & ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+
+    & li{
+      display: flex;
+
+      & a{
+        text-decoration: none;
+      
+        &, &:visited{
+          color: $paragraph;
+        }
+      
+        &:hover{
+          color: $paragraph;
+        }
+      
+        &:active{
+          color: $paragraph;
+        }
+      }
+    }
+  }
+}

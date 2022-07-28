@@ -1,0 +1,16 @@
+// Fonts
+$text-headline: normal normal 400 48px/1.4 'Ubuntu', sans;
+$text-paragraph: normal normal 300 20px/1.5 'IBM Plex Sans', sans;
+
+// Colors
+$background: #39363F;
+
+$headline: #ECCBBC;
+$paragraph: #DEDEDE;
+
+$primary: #AA7862;
+
+// Links colors
+$color-link: $primary;
+$color-link-hover: $color-link;
+$color-link-active: lighten($color-link-hover, 5%);
