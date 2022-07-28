@@ -12,6 +12,23 @@ permalink: /
   </ul>
 </nav>
 
+# Projects
+{% for project in site.projects %}
+<article class="project">
+  <img src="{{- project.img | prepend: 'content/img/' -}}">
+  <div>
+    <h2><a href="#">{{ project.name }}</a></h2>
+    <p class="project-tags">
+    {% for tag in project.tags%}
+      {{ tag }}
+    {% endfor %}
+    </p>
+
+    {{ project.content | markdownify }}
+  </div>
+</article>
+{% endfor %}
+
 # About
 <nav class="nav-about">
   <ul>
