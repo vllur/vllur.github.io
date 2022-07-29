@@ -1,0 +1,42 @@
+figure{
+  margin: 0;
+
+  & a{
+    display: flex;
+  }
+
+  & figcaption{
+    margin: 0.25em 0;
+  }
+}
+
+.figure-full-mobile, .figure-mobile-full{
+  display: flex;
+  justify-content: space-between;
+
+  & figure{
+    justify-content: right;
+    margin: 0 0.5em 0 0;
+  }
+
+  & figure:nth-child(even){
+    margin: 0 0 0 0.5em;
+  }
+}
+
+.figure-mobile-full{
+  flex-direction: row-reverse;
+
+  & figure{
+    justify-content: left;
+    margin: 0 0 0 0.5em;
+
+    & figcaption{
+      text-align: right;
+    }
+  }
+
+  & figure:nth-child(even){
+    margin: 0 0.5em 0 0;
+  }
+}
