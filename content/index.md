@@ -12,6 +12,39 @@ permalink: /
   </ul>
 </nav>
 
+{%- include figure.html 
+id="designs"
+src="p2.png"
+alt="Project"
+title="Project"
+figcaption="Lorem ipsum dolor" -%}
+
+<div class="figure-full-mobile">
+{%- include figure.html 
+src="p2.png"
+alt="Project"
+title="Project"
+figcaption="Lorem ipsum dolor" -%}
+
+{%- include figure.html 
+src="p3.png"
+alt="Project"
+title="Project"
+figcaption="" -%}
+</div>
+
+{%- include figure.html 
+src="p2.png"
+alt="Project"
+title="Project"
+figcaption="Lorem ipsum dolor" -%}
+
+{%- include figure.html 
+src="p2.png"
+alt="Project"
+title="Project"
+figcaption="Lorem ipsum dolor" -%}
+
 # Projects
 {% for project in site.projects %}
 <article class="project">

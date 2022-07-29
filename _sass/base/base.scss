@@ -3,6 +3,7 @@ html, body{
   font: $text-paragraph;
   background: $background;
   color: $paragraph;
+  scroll-behavior: smooth;
 }
 
 main{
