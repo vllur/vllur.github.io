@@ -31,7 +31,7 @@
   }
 }
 
-.project:nth-child(even){
+.project:nth-of-type(even){
   flex-direction: row-reverse;
   text-align: right;
   padding: 0 0 0 255px;
