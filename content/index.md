@@ -14,43 +14,39 @@ permalink: /
 
 {%- include figure.html 
 id="designs"
-src="p2.png"
-alt="Project"
-title="Project"
-figcaption="Lorem ipsum dolor" -%}
+src="blog_theme.jpg"
+alt="Modern blog theme"
+title="Modern blog theme"
+figcaption="Modern blog theme"
+link="https://vllur.github.io/Magazine/" -%}
 
 <div class="figure-full-mobile">
 {%- include figure.html 
-src="p2.png"
-alt="Project"
-title="Project"
-figcaption="Lorem ipsum dolor" -%}
+src="artist_portfolio.jpg"
+alt="Artist portfolio"
+title="Artist portfolio"
+figcaption="Artist portfolio"
+link="https://themiczal.github.io/" -%}
 
 {%- include figure.html 
-src="p3.png"
-alt="Project"
-title="Project"
+src="artist_portfolio_mobile.jpg"
+alt="Artist portfolio"
+title="Artist portfolio"
 figcaption="" -%}
 </div>
 
-{%- include figure.html 
-src="p2.png"
-alt="Project"
-title="Project"
-figcaption="Lorem ipsum dolor" -%}
-
-{%- include figure.html 
-src="p2.png"
-alt="Project"
-title="Project"
-figcaption="Lorem ipsum dolor" -%}
+{%- include figure.html
+src="online_shop.jpg"
+alt="Online clothing shop"
+title="Online clothing store concept"
+figcaption="Online clothing shop concept"-%}
 
 # Projects
 {% for project in site.projects %}
 <article class="project">
   <img src="{{- project.img | prepend: 'content/img/' -}}">
   <div>
-    <h2><a href="#">{{ project.name }}</a></h2>
+    <h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
     <p class="project-tags">
     {% for tag in project.tags%}
       {{ tag }}
@@ -67,7 +63,7 @@ figcaption="Lorem ipsum dolor" -%}
   <ul>
     <li><a href="{{- site.github -}}">GitHub</a></li>
     <li><a href="{{- site.linkedin -}}">LinkedIn</a></li>
-    <li><a href="{{- site.mastodon -}}">Mastodon</a></li>
+    <li><a rel="me" href="{{- site.mastodon -}}">Mastodon</a></li>
   </ul>
   <ul>
     <li><a href="mailto:{{- site.mail -}}">Mail</a></li>
@@ -75,8 +71,4 @@ figcaption="Lorem ipsum dolor" -%}
   </ul>
 </nav>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nisi sem, non posuere neque convallis sed. Curabitur tellus erat, faucibus non tellus nec, feugiat feugiat erat. Phasellus aliquam, massa ut tincidunt condimentum, neque diam sodales magna, eu dictum mi libero at tortor. Nunc malesuada felis est, vel ultricies purus ultrices rutrum. Aenean mollis imperdiet dui, sed accumsan lorem volutpat nec.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nisi sem, non posuere neque convallis sed. Curabitur tellus erat, faucibus non tellus nec, feugiat feugiat erat. Phasellus aliquam, massa ut tincidunt condimentum, neque diam sodales magna, eu dictum mi libero at tortor. Nunc malesuada felis est, vel ultricies purus ultrices rutrum. Aenean mollis imperdiet dui, sed accumsan lorem volutpat nec.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus nisi sem, non posuere neque convallis sed. Curabitur tellus erat, faucibus non tellus nec, feugiat feugiat erat. Phasellus aliquam, massa ut tincidunt condimentum, neque diam sodales magna, eu dictum mi libero at tortor. Nunc malesuada felis est, vel ultricies purus ultrices rutrum. Aenean mollis imperdiet dui, sed accumsan lorem volutpat nec.
+Hello! I'm web developer and web designer, with skills ranging from Figma UI and UX design, through newest trends in CSS all the way to PHP and Linux server administration. Mostly interested in design, but I also enjoy implementing them for people to use.

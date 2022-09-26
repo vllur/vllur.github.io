@@ -28,11 +28,11 @@ baseurl: /
 header: "Patryk Dejewski"
 
 # Links
-blog: /
-github: /
-linkedin: /
-mastodon: /
-mail: /
+blog: https://vllur.github.io/blog/
+github: https://github.com/vllur
+linkedin: https://www.linkedin.com/in/patryk-dejewski/
+mastodon: https://fosstodon.org/@vllur
+mail: patryk.dejewski@disroot.org
 
 # Posts, drafts and other collections in '_content' directory
 collections_dir: content

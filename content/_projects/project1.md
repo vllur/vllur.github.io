@@ -1,6 +1,7 @@
 ---
-name: Project1
-tags: tag1 tag2
+name: Blog
+tags: Linux web jekyll
 img: p1.png
+link: https://vllur.github.io/blog/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Articles about various things, but mostly about web and Linux.
