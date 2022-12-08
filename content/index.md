@@ -71,4 +71,4 @@ figcaption="Online clothing shop concept"-%}
   </ul>
 </nav>
 
-Hello! I'm web developer and web designer, with skills ranging from Figma UI and UX design, through newest trends in CSS all the way to PHP and Linux server administration. Mostly interested in design, but I also enjoy implementing them for people to use.
+Hello. I'm interested in web development and web design. I do UI and UX design in Figma and make Jekyll themes, utilizing my skills in SCSS.
