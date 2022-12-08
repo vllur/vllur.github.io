@@ -1,8 +1,13 @@
 figure{
-  margin: 0;
+  margin: 0 0 1em 0;
 
   & a{
     display: flex;
+  }
+
+  & img{
+    box-shadow: 5px 5px darken($background, 2%);
+    border-radius: 2px;
   }
 
   & figcaption{
@@ -16,7 +21,7 @@ figure{
 
   & figure{
     justify-content: right;
-    margin: 0 0.5em 0 0;
+    margin: 0 0.5em 1em 0;
   }
 
   & figure:nth-child(even){
