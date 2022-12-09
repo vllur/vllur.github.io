@@ -12,13 +12,12 @@
   }
 
   & > img{
-    border-right: 5px solid darken($background, 2%);
-    border-bottom: 5px solid darken($background, 2%);
-    border-radius: 2px;
+    filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
     width: 250px;
     height: 250px;
     display: block;
-    margin: 0 0.5em 0 0;
+    margin: 0 calc(0.5em + 4px) 0 0;
   }
 
   & > div{
