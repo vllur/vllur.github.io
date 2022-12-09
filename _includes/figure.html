@@ -3,7 +3,7 @@
     <img src="{{- include.src | prepend: 'content/img/' | relative_url  -}}" alt="{{ include.alt }}" title="{{ include.title }}" draggable='false'/>
   </a>
   {% if include.link %}
-  <figcaption><a href="{{- include.link -}}" target="_blank">{{ include.figcaption }} &#129133;</a></figcaption>
+  <figcaption><a href="{{- include.link -}}" target="_blank">{{ include.figcaption }}</a></figcaption>
   {% else %}
   <figcaption>{{ include.figcaption }}</figcaption>
   {% endif %}
