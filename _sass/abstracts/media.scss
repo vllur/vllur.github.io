@@ -11,21 +11,15 @@
 @media only screen and (max-width: 550px) {
   .project{
     flex-direction: column;
-    text-align: center;
     margin-bottom: 2em;
 
-    & > img{
-      margin: auto;
+    & > div > h2{
+      margin-top: 1rem;
     }
   }
 
   .project:nth-child(even){
     flex-direction: column;
-    text-align: center;
-
-    & > img{
-      margin: auto;
-    }
   }
 
   nav{
@@ -46,22 +40,22 @@
   .figure-full-mobile{
     & figure{
       justify-content: right;
-      margin: 0 0.15em 0 0;
+      margin: 0 0.25em 1em 0;
     }
   
     & figure:nth-child(even){
-      margin: 0 0 0 0.15em;
+      margin: 0 0 1em 0.25em;
     }
   }
 
   .figure-mobile-full{
     & figure{
       justify-content: right;
-      margin: 0 0 0 0.15em;
+      margin: 0 0 1em 0.25em;
     }
   
     & figure:nth-child(even){
-      margin: 0 0.15em 0 0;
+      margin: 0 0.25em 1em 0;
     }
   }
 }
