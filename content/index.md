@@ -71,4 +71,4 @@ figcaption="Online clothing shop concept"-%}
   </ul>
 </nav>
 
-Hello. I'm interested in web development and web design. I do UI and UX design in Figma and make Jekyll themes, utilizing my skills in SCSS.
+Hello. I'm interested in web development and web design. I like doing websites with Jekyll and designs in Figma and Inkscape. If you want to contact me, feel free to send an email.
