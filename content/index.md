@@ -14,7 +14,7 @@ permalink: /
 
 {%- include figure.html 
 id="designs"
-src="blog_theme.jpg"
+src="blog_theme"
 alt="Modern blog theme"
 title="Modern blog theme"
 figcaption="Modern blog theme"
@@ -22,21 +22,21 @@ link="https://vllur.github.io/Magazine/" -%}
 
 <div class="figure-full-mobile">
 {%- include figure.html 
-src="artist_portfolio.jpg"
+src="artist_portfolio"
 alt="Artist portfolio"
 title="Artist portfolio"
 figcaption="Artist portfolio"
 link="https://themiczal.github.io/" -%}
 
 {%- include figure.html 
-src="artist_portfolio_mobile.jpg"
+src="artist_portfolio_mobile"
 alt="Artist portfolio"
 title="Artist portfolio"
 figcaption="" -%}
 </div>
 
 {%- include figure.html
-src="online_shop.jpg"
+src="online_shop"
 alt="Online clothing shop"
 title="Online clothing store concept"
 figcaption="Online clothing shop concept"-%}
@@ -44,7 +44,10 @@ figcaption="Online clothing shop concept"-%}
 # Projects
 {% for project in site.projects %}
 <article class="project">
-  <img src="{{- project.img | prepend: 'content/img/' -}}">
+  <picture>
+    <source srcset="{{- project.img | prepend: 'content/img/' | append: '.webp' | relative_url  -}}" type="image/webp">
+    <img src="{{- project.src | prepend: 'content/img/' | append: '.jpg' | relative_url  -}}" alt="{{ project.alt }}" draggable='false'>
+  </picture>  
   <div>
     <h2><a href="{{ project.link }}">{{ project.name }}</a></h2>
     <p class="project-tags">

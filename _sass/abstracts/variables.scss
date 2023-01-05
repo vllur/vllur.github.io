@@ -11,6 +11,6 @@ $paragraph: #DEDEDE;
 $primary: #AA7862;
 
 // Links colors
-$color-link: $primary;
+$color-link: lighten($primary, 12%);
 $color-link-hover: $color-link;
 $color-link-active: lighten($color-link-hover, 5%);
