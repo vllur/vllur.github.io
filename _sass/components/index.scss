@@ -60,6 +60,10 @@ nav{
   margin: 1em 0 0 0;
 }
 
-#about, #projects{
-  line-height: 1;
+.section-about{
+  padding: 0 0.5em;
+
+  & h1{
+    line-height: 1;
+  }
 }

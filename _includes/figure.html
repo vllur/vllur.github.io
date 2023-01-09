@@ -1,5 +1,9 @@
 <figure id="{{- include.id -}}">
-  <a href="{{- include.src | prepend: 'content/img/' | append: '.jpg' | relative_url  -}}" target="_blank">
+  {% if include.img_href_override %}
+  <a href="{{- include.img_href_override -}}" target="_blank">
+  {% else %}
+  <a href="{{- include.src | prepend: 'content/img/' | append: '.jpg' | relative_url -}}" target="_blank">
+  {% endif %}
     <picture>
       <source srcset="{{- include.src | prepend: 'content/img/' | append: '.webp' | relative_url  -}}" type="image/webp">
       <img src="{{- include.src | prepend: 'content/img/' | append: '.jpg' | relative_url  -}}" alt="{{ include.alt }}" draggable='false'>

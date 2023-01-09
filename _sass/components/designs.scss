@@ -1,12 +1,22 @@
+.figure-header{
+  font-size: 1.5em;
+  text-align: right;
+  margin: 0 0.5em 0.25em 0;
+
+  & a{
+    color: inherit;
+  }
+}
+
 figure{
   margin: 0 0 1em 0;
+  padding: 0 0.5em;
 
   & a{
     display: flex;
   }
 
   & img{
-    //box-shadow: 5px 5px darken($background, 2%);
     filter: drop-shadow(7px 7px 3px rgba(0, 0, 0, 0.25));
     border-radius: 3px;
   }
@@ -22,10 +32,15 @@ figure{
 
   & figure{
     justify-content: right;
-    margin: 0 0.5em 1em 0;
+    margin: 0 0.5em 0 0;
+  }
+
+  & figure:nth-child(odd){
+    padding: 0 0 0 0.5em;
   }
 
   & figure:nth-child(even){
+    padding: 0 0.5em 0 0;
     margin: 0 0 0 0.5em;
   }
 }

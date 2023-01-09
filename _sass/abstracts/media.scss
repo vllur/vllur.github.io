@@ -1,27 +1,4 @@
-@media only screen and (max-width: 800px) {
-  .project{
-    padding: 0;
-  }
-  
-  .project:nth-child(even){
-    padding: 0
-  }
-}
-
 @media only screen and (max-width: 550px) {
-  .project{
-    flex-direction: column;
-    margin-bottom: 2em;
-
-    & > div > h2{
-      margin-top: 1rem;
-    }
-  }
-
-  .project:nth-child(even){
-    flex-direction: column;
-  }
-
   nav{
     &.nav-about ul{
       flex-direction: column;
@@ -58,12 +35,14 @@
       margin: 0 0.25em 1em 0;
     }
   }
+
+  .splide__arrow{
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 400px){
-  html, body{ font-size: 16px; }
   h1, h2, h3, h4, h5, h6{ font-size: 36px; }
-  .project > div > h2{ font-size: 24px; }
   nav.nav-main ul{ font-size: 18px; }
 
   nav.nav-main{ 

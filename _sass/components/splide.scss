@@ -1,0 +1,28 @@
+.splide{
+  margin-bottom: 1em;
+
+  .splide__arrow{
+    border-radius: 5px;
+    background: $paragraph;
+  }
+
+  .splide__arrow--prev{
+    left: 1.5em;
+  }
+
+  .splide__arrow--next{
+    right: 1.5em;
+  }
+
+  .splide__pagination__page{
+    width: 1em;
+    height: 4px;
+    border-radius: 25px;
+    background: $paragraph;
+  }
+
+  .splide__pagination__page.is-active{
+    transform: scale(1.4);
+    background: $paragraph;
+  }
+}
