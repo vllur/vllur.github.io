@@ -13,7 +13,7 @@ permalink: /
 </nav>
 
 <section class="splide">
-  <h3 id="websites" class="figure-header">Websites</h3>
+  <h2 id="websites" class="figure-header">Websites</h2>
   <div class="splide__track">
 		<ul class="splide__list">
 			<li class="splide__slide">
@@ -45,7 +45,7 @@ permalink: /
 </section>
 
 <section class="splide">
-  <h3 id="designs" class="figure-header">Designs</h3>
+  <h2 id="designs" class="figure-header">Designs</h2>
   <div class="splide__track">
 		<ul class="splide__list">
 			<li class="splide__slide">
@@ -62,7 +62,7 @@ permalink: /
 <script src="{{- 'assets/js/splide_conf.js' | relative_url -}}"></script>
 
 <section>
-<h3 class="figure-header"><a href="{{- site.blog -}}">Blog</a></h3>
+<h32class="figure-header"><a href="{{- site.blog -}}">Blog</a></h2>
 {%- include figure.html
 src="blog"
 img_href_override=site.blog
