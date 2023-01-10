@@ -19,6 +19,8 @@ permalink: /
 			<li class="splide__slide">
         {%- include figure.html
         src="blog_theme"
+        width=1888
+        height=903
         alt="Modern blog theme"
         title="Modern blog theme"
         figcaption="Modern blog theme"
@@ -28,6 +30,8 @@ permalink: /
         <div class="figure-full-mobile">
           {%- include figure.html 
           src="artist_portfolio"
+          width=1336
+          height=864
           alt="Artist portfolio"
           title="Artist portfolio"
           figcaption="Artist portfolio"
@@ -35,6 +39,8 @@ permalink: /
 
           {%- include figure.html 
           src="artist_portfolio_mobile"
+          width=432
+          height=864
           alt="Artist portfolio"
           title="Artist portfolio"
           figcaption="" -%}
@@ -51,6 +57,8 @@ permalink: /
 			<li class="splide__slide">
         {%- include figure.html
         src="online_shop"
+        width=1728
+        height=1117
         alt="Online clothing shop"
         title="Online clothing store concept"
         figcaption="Online clothing shop concept"-%}
@@ -62,9 +70,11 @@ permalink: /
 <script src="{{- 'assets/js/splide_conf.js' | relative_url -}}"></script>
 
 <section>
-<h32class="figure-header"><a href="{{- site.blog -}}">Blog</a></h2>
+<h2 class="figure-header"><a href="{{- site.blog -}}">Blog</a></h2>
 {%- include figure.html
 src="blog"
+width=1600
+height=903
 img_href_override=site.blog
 alt="Screenshot of blog post"
 title="Blog"

@@ -6,7 +6,7 @@
   {% endif %}
     <picture>
       <source srcset="{{- include.src | prepend: 'content/img/' | append: '.webp' | relative_url  -}}" type="image/webp">
-      <img src="{{- include.src | prepend: 'content/img/' | append: '.jpg' | relative_url  -}}" alt="{{ include.alt }}" draggable='false'>
+      <img src="{{- include.src | prepend: 'content/img/' | append: '.jpg' | relative_url  -}}"  width="{{- include.width -}}" height="{{- include.height -}}" alt="{{ include.alt }}" draggable='false'>
     </picture>  
   </a>
   {% if include.link %}

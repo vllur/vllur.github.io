@@ -17,6 +17,8 @@ figure{
   }
 
   & img{
+    height: auto;
+    width: 100%;
     filter: drop-shadow(7px 7px 3px rgba(0, 0, 0, 0.25));
     border-radius: 3px;
   }
