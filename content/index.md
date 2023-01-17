@@ -87,7 +87,6 @@ figcaption="Blog about web, design and web design "-%}
   <ul>
     <li><a href="{{- site.github -}}">GitHub</a></li>
     <li><a href="{{- site.linkedin -}}">LinkedIn</a></li>
-    <li><a rel="me" href="{{- site.mastodon -}}">Mastodon</a></li>
   </ul>
   <ul>
     <li><a href="mailto:{{- site.mail -}}">Mail</a></li>
